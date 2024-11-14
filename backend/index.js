@@ -13,5 +13,5 @@ app.use('/api/auth',require('./routes/auth'))
 app.use('/api/notes',require('./routes/notes'))
 
 app.listen(port, () => {
-  console.log(`Gyan pad listening on at http:/localhost:${port}`)
+  console.log(`eNotebook backend listening on at http:/localhost:${port}`)
 })
